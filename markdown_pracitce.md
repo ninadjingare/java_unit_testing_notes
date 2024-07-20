@@ -11,3 +11,6 @@ __This is Bold Text__
 
 *This is italics*
 _This is italics_
+
+
+**This text is _extremely_ important**
