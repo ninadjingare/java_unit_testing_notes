@@ -39,3 +39,7 @@ git status
 git add
 git commit
 ```
+
+
+
+This site was built using [Github Pages](https://pages.github.com/)
