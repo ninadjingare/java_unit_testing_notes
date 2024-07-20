@@ -14,3 +14,12 @@ _This is italics_
 
 
 **This text is _extremely_ important**
+
+~~This was mistaken text~~
+
+***All this text is important****
+
+This is <sub>subscript</sub> text
+
+
+This is a <sup>superscript</sup> text
