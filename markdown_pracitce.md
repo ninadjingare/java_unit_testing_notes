@@ -6,5 +6,5 @@
 ###### Heading Six
 
 
-** This is Bold Text **
-__ This is Bold Text __
+**This is Bold Text**
+__This is Bold Text__
