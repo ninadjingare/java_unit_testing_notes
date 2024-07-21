@@ -85,3 +85,6 @@ Lists
 
 > [!CAUTION]
 > Advices about risks or negative outcomes of certain actions.
+
+
+This is `rgb(117, 245, 66)`background color
