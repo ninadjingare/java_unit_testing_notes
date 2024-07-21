@@ -74,6 +74,45 @@ and below things are going to **common** for each execution
 + Informs the JUnit engine what method needs to run
 
 
+##### Expectation vs Reality
+
+* Create an instance of class under test
+* Set up inputs
+* Execute the code you want to test
+* Verify the result is what you expect
+
+
+> [!NOTE]
+> assert:  to say something clearly and firmly
+
+#### Test Life Cycle
+Test Life Cycle is a process in which test instance is created, managed and destroyed.
+
+![image](https://github.com/user-attachments/assets/87b729bb-09fa-49c1-983a-c914126d1347)
+
+
+
+
+##### Life Cycle Hooks
++ `@BeforeAll`
++ `@AfterAll`
++ `@BeforeEach`
++ `@AfterEach`
+
+#### Annotations to scale your tests
+
+- `@DisplayName`
+- `@Disabled`
+
+#### Conditional Executions
+
+- `@EnabledOnOs(OS.LINUX)`
+- `@EnabledOnJre(JRE.JAVA_11)`
+- `@EnabledIf`
+- `@EnabledIfSystemProperty`
+- `@EnabledIfEnvironmentVariable`
+
+
 
 
 
