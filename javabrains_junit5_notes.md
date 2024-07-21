@@ -23,7 +23,7 @@ and below things are going to **common** for each execution
 - Do something to alert developer if test failed
 
 > [!IMPORTANT]
-> JUnit5 Framework provide all above things out of box
+> JUnit 5  testing framework provide all above things out of box
 
 
 #### JUnit 5 Architecture
@@ -39,7 +39,12 @@ and below things are going to **common** for each execution
 
 #### JUnit 5 Dependencies
 
-```
+- `junit-jupiter-api`   API for writing tests using JUnit Jupiter
+- `junit-jupiter-engine` Implementation of the TestEngine API for JUnit Jupiter
+- `junit-vintage-engine` A thin layer on top of JUnit 4 to allow running vintage tests
+
+
+```xml
   <junit.jupiter.version>5.8.2</junit.jupiter.version>
 
   <dependencies>
@@ -61,6 +66,12 @@ and below things are going to **common** for each execution
 
 > [!NOTE]
 > Dependencies with `<scope>test</scope>` are not included in final build.
+
+
+
+`@Test`
++ Marks method as a Test
++ Informs the JUnit engine what method needs to run
 
 
 
